@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "name": "ice cream",
+    "description": "גלידת וניל עוגיות",
+    "imgUrl": "/assets/images/גלידות/גלידת וניל עוגיות.png",
+    "price": 12.9
+  },
+  {
+    "id": 2,
+    "name": "ice cream",
+    "description": "גלידת פיסטוק וניל עם פצפוצי פיסטוק",
+    "imgUrl": "/assets/images/גלידות/גלידת פיסטוק וניל אם פיצפוצי פיסטוק למעלה.png",
+    "price": 14.9
+  },
+  {
+    "id": 3,
+    "name": "ice cream",
+    "description": "גלידת פירות יער",
+    "imgUrl": "/assets/images/גלידות/גלידת פרות יער.png",
+    "price": 13.9
+  },
+  {
+    "id": 4,
+    "name": "ice cream",
+    "description": "גלידת ריבת חלב",
+    "imgUrl": "/assets/images/גלידות/גלידת ריבת חלב (1).png",
+    "price": 15.9
+  },
+  {
+    "id": 5,
+    "name": "ice cream",
+    "description": "גלידת שוקולד עם פצפוצי שוקולד לבן",
+    "imgUrl": "/assets/images/גלידות/גלידת שוקולד אם פיצפוצי שוקולד לבן.png",
+    "price": 14.5
+  },
+  {
+    "id": 6,
+    "name": "ice cream",
+    "description": "גלידת שוקולד וניל עם פצפוצי עוגיות",
+    "imgUrl": "/assets/images/גלידות/גלידת שוקולד וניל אם פיצפוצי עוגיות.png",
+    "price": 13.5
+  },
+  {
+    "id": 7,
+    "name": "ice cream",
+    "description": "גלידת שוקולד חום עם פצפוצים",
+    "imgUrl": "/assets/images/גלידות/גלידת שוקולד חום אם פיצפוצים.png",
+    "price": 12.5
+  },
+  {
+    "id": 8,
+    "name": "drinks",
+    "description": "משקה תותים",
+    "imgUrl": "/assets/images/משקאות קלים/משקה אדום עם תותים.png",
+    "price": 8.9
+  },
+  {
+    "id": 9,
+    "name": "drinks",
+    "description": "משקה פטל",
+    "imgUrl": "/assets/images/משקאות קלים/משקה ורוד אדום עם פטל.png",
+    "price": 8.9
+  },
+  {
+    "id": 10,
+    "name": "drinks",
+    "description": "משקה קיווי",
+    "imgUrl": "/assets/images/משקאות קלים/משקה ירוק עם קיווי וגרעינים שחורים.png",
+    "price": 9.9
+  },
+  {
+    "id": 11,
+    "name": "drinks",
+    "description": "משקה לימון",
+    "imgUrl": "/assets/images/משקאות קלים/משקה צהוב עם לימון.png",
+    "price": 7.9
+  },
+  {
+    "id": 12,
+    "name": "drinks",
+    "description": "משקה תפוז",
+    "imgUrl": "/assets/images/משקאות קלים/סגירת הפקק של הבקבוק הכתום.png",
+    "price": 7.9
+  },
+  {
+    "id": 13,
+    "name": "drinks",
+    "description": "משקה אוכמניות",
+    "imgUrl": "/assets/images/משקאות קלים/משקאות בסגנון דומה.png",
+    "price": 8.9
+  },
+  {
+    "id": 14,
+    "name": "shakes",
+    "description": "שייק חלבי בטעם פיסטוק",
+    "imgUrl": "/assets/images/שייקים/שייק חלבי בטעם פיסטוק עם פיסטוקים וצבע בהתאם.png",
+    "price": 18.9
+  },
+  {
+    "id": 15,
+    "name": "shakes",
+    "description": "שייק קיווי, שוקולד לבן, מלון ותמר",
+    "imgUrl": "/assets/images/שייקים/שייק מגרה עם קייוי שוקולד לבן, מלון ותמר.png",
+    "price": 19.9
+  },
+  {
+    "id": 16,
+    "name": "shakes",
+    "description": "שייק פקאן",
+    "imgUrl": "/assets/images/שייקים/שייק פקאן עם שוקולד לוז.png",
+    "price": 17.9
+  },
+  {
+    "id": 17,
+    "name": "shakes",
+    "description": "שייק פירות",
+    "imgUrl": "/assets/images/שייקים/שייק פרות מגרה במיוחד.png",
+    "price": 16.9
+  },
+  {
+    "id": 18,
+    "name": "shakes",
+    "description": "שייק שחיתות",
+    "imgUrl": "/assets/images/שייקים/שייק שחיתות מגרה.png",
+    "price": 18.5
+  },
+  {
+    "id": 19,
+    "name": "shakes",
+    "description": "שייק תות ושוקולד",
+    "imgUrl": "/assets/images/שייקים/שייק חלבי מגרה במיוחד.png",
+    "price": 17.5
+  },
+  {
+    "id": 20,
+    "name": "ices",
+    "description": "אייס בננה",
+    "imgUrl": "/assets/images/אייסים/אייס בננה מגרה.png",
+    "price": 15.9
+  },
+  {
+    "id": 21,
+    "name": "ices",
+    "description": "אייס וניל עוגיות",
+    "imgUrl": "/assets/images/אייסים/אייס וניל עוגיות.png",
+    "price": 14.9
+  },
+  {
+    "id": 22,
+    "name": "ices",
+    "description": "אייס פטל",
+    "imgUrl": "/assets/images/אייסים/אייס פטל בלי רקע ובלי צל צהוב.png",
+    "price": 13.9
+  },
+  {
+    "id": 23,
+    "name": "ices",
+    "description": "אייס קפה",
+    "imgUrl": "/assets/images/אייסים/אייס קפה (1).png",
+    "price": 14.5
+  },
+  {
+    "id": 24,
+    "name": "ices",
+    "description": "אייס תות בננה",
+    "imgUrl": "/assets/images/אייסים/אייס תות בננה מגרה.png",
+    "price": 15.5
+  }
+]
