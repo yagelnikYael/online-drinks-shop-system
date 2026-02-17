@@ -33,7 +33,7 @@ jobs:
             sudo cp -r dist/* /var/www/html/
 
             echo "Restart server"
-            cd ../server
+            cd .. /server
             npm install
             sudo systemctl restart myapp
 
