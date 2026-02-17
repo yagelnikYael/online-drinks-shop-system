@@ -11,11 +11,12 @@ const path = require("path");
 app.use(cors());
 app.use(bodyParser.json());
 
-app.use("/product", product); 
-app.use('/user', userRouter);
+app.use("api/product", product); 
+app.use('api/user', userRouter);
 
 
 app.use(express.static(path.join(__dirname, "public")));
+app.use('/api/images', express.static(path.join(__dirname, '../client/src')));
 
 app.use((req, res) => {
   res.status(404).send("404 - Not Found");
