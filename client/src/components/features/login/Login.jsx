@@ -55,7 +55,7 @@ function Login({ open, handleClose }) {
         }
 
         try {
-            const res = await fetch('http://localhost:4000/user/login', {
+            const res = await fetch('/api/user/login', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ username, password })
