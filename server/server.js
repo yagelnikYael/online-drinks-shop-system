@@ -11,8 +11,8 @@ const path = require("path");
 app.use(cors());
 app.use(bodyParser.json());
 
-app.use("api/product", product); 
-app.use('api/user', userRouter);
+app.use("/api/product", product); 
+app.use('/api/user', userRouter);
 
 
 app.use(express.static(path.join(__dirname, "public")));
