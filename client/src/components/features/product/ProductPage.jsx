@@ -67,7 +67,7 @@ const ProductPage = ({ onOpenLogin }) => {
     useEffect(() => {
         const fetchProducts = async () => {
             try {
-                const response = await axios.get('http://localhost:4000/product');
+                const response = await axios.get('/api/product');
                 setProducts(response.data);
                 setLoading(false);
 
@@ -312,7 +312,7 @@ const ProductPage = ({ onOpenLogin }) => {
     };
     const adminUpdatingProduct = async (id, updatedData) => {
         try {
-            const response = await axios.put(`http://localhost:4000/product/${id}`, updatedData);
+            const response = await axios.put(`/api/product/${id}`, updatedData);
             // עדכון ה-state אחרי הצלחה
             setProducts(prevProducts => prevProducts.map(p => p.id === id ? response.data : p));
         } catch (error) {
@@ -331,7 +331,7 @@ const ProductPage = ({ onOpenLogin }) => {
         };
 
         try {
-            await axios.post("http://localhost:4000/product", newProduct);
+            await axios.post("/api/product", newProduct);
             alert("המוצר נוסף בהצלחה!");
             setProducts((prevProducts) => [...prevProducts, newProduct]);
             setShowAddProductModal(false);
