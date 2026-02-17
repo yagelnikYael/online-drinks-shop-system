@@ -5,7 +5,7 @@ import axios from "axios";
 export const deleteProduct = createAsyncThunk(
   "products/deleteProduct",
   async (id) => {
-    await axios.delete(`http://localhost:4000/product/${id}`);
+    await axios.delete(`/api/product/${id}`);
     return id; 
   }
 );
