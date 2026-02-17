@@ -391,7 +391,7 @@ const ProductPage = ({ onOpenLogin }) => {
                                         flexShrink: 0,
                                         ml: 1
                                     }}
-                                    image={`http://localhost:4000${product.imgUrl}`}
+                                    image={`/api/images${product.imgUrl}`}
                                     alt={product.description}
                                 />
                                 <CardContent sx={{ flexGrow: 1, py: '16px !important' }}>
@@ -671,7 +671,7 @@ const ProductPage = ({ onOpenLogin }) => {
                                             <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
                                                 <Box
                                                     component="img"
-                                                    src={`http://localhost:4000${item.product.imgUrl}`}
+                                                    src={/api/images${item.product.imgUrl}`}
                                                     alt={item.product.description}
                                                     sx={{
                                                         width: 60,
