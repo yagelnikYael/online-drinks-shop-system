@@ -22,7 +22,7 @@ function HeroSection() {
                     component="h1"
                     sx={{ color: '#2b4f3f', fontWeight: 'bold', marginBottom: 2, }}
                 >
-                    Refreshing Drinks !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                    Refreshing Drinks
                 </Typography>
 
                 <Typography
