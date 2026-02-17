@@ -9,32 +9,32 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
 
-steps:
+    steps:
 
-  - name: Deploy via SSH
-    uses: appleboy/ssh-action@v1.0.3
-    with:
-      host: ${{ secrets. EC2_HOST }}
-      username: ${{ secrets. EC2_USER }}
-      key: ${{ secrets. EC2_SSH_KEY }}
-      script: |
-        cd ~/online-drinks-shop-system
+      - name: Deploy via SSH
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets. EC2_HOST }}
+          username: ${{ secrets. EC2_USER }}
+          key: ${{ secrets. EC2_SSH_KEY }}
+          script: |
+            cd ~/online-drinks-shop-system
 
-        echo "Pull latest code"
-        git pull origin testBranch
+            echo "Pull latest code"
+            git pull origin testBranch
 
-        echo "Build client"
-        cd client
-        npm install
-        npm run build
+            echo "Build client"
+            cd client
+            npm install
+            npm run build
 
-        echo "Deploy client to NGINX"
-        sudo rm -rf /var/www/html/*
-        sudo cp -r dist/* /var/www/html/
+            echo "Deploy client to NGINX"
+            sudo rm -rf /var/www/html/*
+            sudo cp -r dist/* /var/www/html/
 
-        echo "Restart server"
-        cd .. /server
-        npm install
-        sudo systemctl restart myapp
+            echo "Restart server"
+            cd .. /server
+            npm install
+            sudo systemctl restart myapp
 
-        echo "Deploy completed successfully"
+            echo "Deploy completed successfully"
