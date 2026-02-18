@@ -91,20 +91,20 @@ npm run dev
 The frontend application will run at:
 👉 http://localhost:5173
 
-🧠 Project Goals
+### 🧠 Project Goals
 Practice full stack web development
 Build a real-world e-commerce workflow
 Implement RESTful API architecture
 Work with authentication and authorization
 Apply modern frontend development patterns
 
-🏗 Architecture
+### 🏗 Architecture
 Client-server architecture
 REST API communication
 Centralized state management using Redux Toolkit
 Modular backend structure using Express.js
 
-👩‍💻 Developer
+### 👩‍💻 Developer
 Yael Yagelnik
 Full Stack Development Student
 
